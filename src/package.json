@@ -1,0 +1,22 @@
+{
+  "name": "profile-view-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Griinzy/profile-view-counter.git"
+  },
+  "author": "griinzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Griinzy/profile-view-counter/issues"
+  },
+  "homepage": "https://github.com/Griinzy/profile-view-counter#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
