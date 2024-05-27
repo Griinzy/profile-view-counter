@@ -3,7 +3,7 @@ const path = require('path')
 const fs = require('fs')
 
 const app = express()
-const port = 3000
+const port = 5000
 
 app.get('/views', (req, res) => {
     let data = JSON.parse(fs.readFileSync('views.json'))
@@ -13,5 +13,5 @@ app.get('/views', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Views server running on http://localhost:${port}`)
+    console.log(`Views server running on http://localhost:${port}/views`)
 })
